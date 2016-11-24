@@ -7,14 +7,14 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161122150635"/>
+		date="20161124181639"/>
 	<dependencies>
 		<module organisation="mysql" name="mysql-connector-java">
-			<revision name="5.1.18" status="release" pubdate="20111218105726" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
-				<metadata-artifact status="successful" details="" size="458" time="562" location="C:\Users\Raluca\.ivy2\cache\mysql\mysql-connector-java\ivy-5.1.18.xml" searched="true" original-local-location="C:\Users\Raluca\.ivy2\cache\mysql\mysql-connector-java\ivy-5.1.18.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.pom"/>
+			<revision name="5.1.18" status="release" pubdate="20111218105726" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="no" details="" size="2283" time="0" location="C:\Users\Raluca\.ivy2\cache\mysql\mysql-connector-java\ivy-5.1.18.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.pom"/>
 				<caller organisation="default" name="traficsbt_2.12" conf="compile, runtime-internal, runtime, optional" rev="5.1.18" rev-constraint-default="5.1.18" rev-constraint-dynamic="5.1.18" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="mysql-connector-java" type="jar" ext="jar" status="successful" details="" size="789885" time="8813" location="C:\Users\Raluca\.ivy2\cache\mysql\mysql-connector-java\jars\mysql-connector-java-5.1.18.jar">
+					<artifact name="mysql-connector-java" type="jar" ext="jar" status="no" details="" size="789885" time="0" location="C:\Users\Raluca\.ivy2\cache\mysql\mysql-connector-java\jars\mysql-connector-java-5.1.18.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar"/>
 					</artifact>
 				</artifacts>
